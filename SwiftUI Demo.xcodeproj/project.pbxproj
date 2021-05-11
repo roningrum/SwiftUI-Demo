@@ -13,6 +13,8 @@
 		03624364264A0DE200B53D88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03624363264A0DE200B53D88 /* Preview Assets.xcassets */; };
 		0362436F264A0DE200B53D88 /* SwiftUI_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0362436E264A0DE200B53D88 /* SwiftUI_DemoTests.swift */; };
 		0362437A264A0DE200B53D88 /* SwiftUI_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03624379264A0DE200B53D88 /* SwiftUI_DemoUITests.swift */; };
+		03624388264A190C00B53D88 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03624387264A190C00B53D88 /* CircleImage.swift */; };
+		0362438A264A1A2000B53D88 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03624389264A1A2000B53D88 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		03624375264A0DE200B53D88 /* SwiftUI DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03624379264A0DE200B53D88 /* SwiftUI_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DemoUITests.swift; sourceTree = "<group>"; };
 		0362437B264A0DE200B53D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03624387264A190C00B53D88 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		03624389264A1A2000B53D88 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				03624360264A0DE200B53D88 /* Assets.xcassets */,
 				03624365264A0DE200B53D88 /* Info.plist */,
 				03624362264A0DE200B53D88 /* Preview Content */,
+				03624387264A190C00B53D88 /* CircleImage.swift */,
+				03624389264A1A2000B53D88 /* MapView.swift */,
 			);
 			path = "SwiftUI Demo";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0362435F264A0DE100B53D88 /* ContentView.swift in Sources */,
+				0362438A264A1A2000B53D88 /* MapView.swift in Sources */,
 				0362435D264A0DE100B53D88 /* SwiftUI_DemoApp.swift in Sources */,
+				03624388264A190C00B53D88 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
